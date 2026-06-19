@@ -11,6 +11,27 @@
 *.sln.docstates
 *.env
 
+# Virtual Environment
+.venv/
+venv/
+
+# Secrets
+.streamlit/secrets.toml
+
+# Logs
+logs/
+*.log
+
+# OCR Output
+output_ocr/
+output_translation/
+output_docx/
+logs/
+samples/
+
+# Excel Logs
+*.xlsx
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
